@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/mySummary/static/css/main.03bc1b78.chunk.css",
-    "main.js": "/mySummary/static/js/main.f82e95c8.chunk.js",
-    "main.js.map": "/mySummary/static/js/main.f82e95c8.chunk.js.map",
+    "main.js": "/mySummary/static/js/main.fab8c38d.chunk.js",
+    "main.js.map": "/mySummary/static/js/main.fab8c38d.chunk.js.map",
     "runtime-main.js": "/mySummary/static/js/runtime-main.0d1c954b.js",
     "runtime-main.js.map": "/mySummary/static/js/runtime-main.0d1c954b.js.map",
     "static/js/2.35d53bab.chunk.js": "/mySummary/static/js/2.35d53bab.chunk.js",
     "static/js/2.35d53bab.chunk.js.map": "/mySummary/static/js/2.35d53bab.chunk.js.map",
     "index.html": "/mySummary/index.html",
     "static/css/main.03bc1b78.chunk.css.map": "/mySummary/static/css/main.03bc1b78.chunk.css.map",
-    "static/js/2.35d53bab.chunk.js.LICENSE.txt": "/mySummary/static/js/2.35d53bab.chunk.js.LICENSE.txt"
+    "static/js/2.35d53bab.chunk.js.LICENSE.txt": "/mySummary/static/js/2.35d53bab.chunk.js.LICENSE.txt",
+    "static/media/FaceImage.3fc1c000.jpg": "/mySummary/static/media/FaceImage.3fc1c000.jpg",
+    "static/media/Sprite.aed8e6f7.svg": "/mySummary/static/media/Sprite.aed8e6f7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0d1c954b.js",
     "static/js/2.35d53bab.chunk.js",
     "static/css/main.03bc1b78.chunk.css",
-    "static/js/main.f82e95c8.chunk.js"
+    "static/js/main.fab8c38d.chunk.js"
   ]
 }
