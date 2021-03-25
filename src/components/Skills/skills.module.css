@@ -1,0 +1,12 @@
+@import "../../helpers//variables//variables.css";
+
+.skills {
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  padding-left: 15px;
+  word-wrap: break-word;
+}
+
+.skills li::marker {
+  color: var(--secondaryColor);
+}

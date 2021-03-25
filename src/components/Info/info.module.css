@@ -1,0 +1,21 @@
+@import "../../helpers//variables//variables.css";
+
+.info {
+  width: 100%;
+  padding-top: 15px;
+  background-color: var(--primaryColor);
+}
+
+.infoContent {
+  padding: 30px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .info {
+    width: 30%;
+  }
+}

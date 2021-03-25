@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 8.66px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    margin: 40px auto;
+    padding: 30px;
+  }
+}

@@ -1,0 +1,25 @@
+.contacts {
+  display: block;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.714;
+}
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+}
+
+.contactsItem a {
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.502);
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+}
