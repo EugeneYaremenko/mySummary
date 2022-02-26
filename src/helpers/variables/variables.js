@@ -10,7 +10,7 @@ const myContacts = {
   github: 'https://github.com/EugeneYaremenko',
   linkedin: 'https://www.linkedin.com/in/eugene-yaremenko-51b8a3202/',
   location: 'Vinnytsia, Ukraine',
-  locationMap: 'https://goo.gl/maps/GwUB6hMXyo6V69iVA',
+  locationMap: 'https://goo.gl/maps/qgYztW2oB9M5hECAA',
 };
 
 const myProf = 'Frontend Developer';
