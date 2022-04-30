@@ -16,61 +16,123 @@ const myContacts = {
 const myProf = 'Frontend Developer';
 
 const techSkills = [
-  { id: uuidv4(), name: 'HTML5' },
-  { id: uuidv4(), name: 'CSS3' },
-  { id: uuidv4(), name: 'Photoshop' },
-  { id: uuidv4(), name: 'Figma' },
   { id: uuidv4(), name: 'GIT' },
-  { id: uuidv4(), name: 'WebPack' },
+  { id: uuidv4(), name: 'HTML5' },
+  { id: uuidv4(), name: 'CSS3, SCSS, SASS' },
+  { id: uuidv4(), name: 'MDB, MaterialUI' },
   { id: uuidv4(), name: 'JavaScript' },
+  { id: uuidv4(), name: 'TypeScript' },
   { id: uuidv4(), name: 'React.js' },
   { id: uuidv4(), name: 'Node.js' },
+  { id: uuidv4(), name: 'Mongo DB' },
+  { id: uuidv4(), name: 'Next.js' },
+  { id: uuidv4(), name: 'Redux, MobX, Akita' },
+  { id: uuidv4(), name: 'Figma, Adobe Photoshop' },
+  { id: uuidv4(), name: 'WebPack' },
   { id: uuidv4(), name: 'Postman' },
-  { id: uuidv4(), name: 'Trello' },
-  { id: uuidv4(), name: 'Bitrix' },
+  { id: uuidv4(), name: 'Jira, Trello' },
+  { id: uuidv4(), name: 'VS Code, WebStorm' },
+  { id: uuidv4(), name: 'Amplify' },
   { id: uuidv4(), name: 'Unisender' },
 ];
 
 const softSkills = [
   { id: uuidv4(), name: 'Agile' },
-  { id: uuidv4(), name: 'Teamwork' },
+  { id: uuidv4(), name: 'Team player' },
+  { id: uuidv4(), name: 'Quick learner' },
   { id: uuidv4(), name: 'Problem-solving' },
-  { id: uuidv4(), name: 'Willingness to learn' },
+  { id: uuidv4(), name: 'Stress resistance' },
 ];
 
 const aboutMe =
-  'Hello! I’m a frontend developer beginner and I’m looking for a close-knit team that will give me a chance to improve my programming skills and achieve my full potential. By the end of the course GoIT (Full Stack Developer) I have acquired not only friends, but also relevant knowledge that will allow me to join the team quickly and become its full member. In short, if you need a reliable person with the desire to learn, do the work qualitatively and on time, then you know what to do (=';
+  'Hello! I’m a frontend developer and I’m looking for a close-knit team that will give me a chance to improve my ' +
+  'programming skills and achieve my full potential. The current knowledge and experience in complex commercial ' +
+  'projects will allow me to quickly join the team and become a full member. ' +
+  ' I`m not standing still and constantly learning something new, ' +
+  'although how could I do without the old (hello jQuery T_T).' +
+  ' In short, if you need a reliable person with the desire to learn, do the work ' +
+  'qualitatively and on time, then you know what to do (=';
 
 const myProjects = [
   {
     id: uuidv4(),
+    name: 'Gmoji - master franchise',
     url: 'https://eugeneyaremenko.github.io/Gmoji-LP/',
     technology: 'HTML5, CSS3',
   },
   {
     id: uuidv4(),
+    name: 'HellEN - english school',
     url: 'https://eugeneyaremenko.github.io/My-project/',
     technology: 'HTML5, CSS3',
   },
   {
     id: uuidv4(),
+    name: 'Filmoteka - film search platform',
     url: 'https://eugeneyaremenko.github.io/filmoteka/',
     technology: 'JavaScript',
   },
   {
     id: uuidv4(),
+    name: 'Slim Mom - weight loss management platform',
     url: 'https://health-fsoff2.netlify.app/',
     technology: 'React.js, Node.js',
+  },
+  {
+    id: uuidv4(),
+    name: 'FiveSite - official website of the company',
+    url: '#',
+    technology: 'HTML, CSS, JS, TS, React, Redux, Next.js',
+  },
+  {
+    id: uuidv4(),
+    name: 'Fast Track - shipping and delivery platform',
+    url: '#',
+    technology: 'HTML, CSS, JS, TS, React, Redux',
+  },
+  {
+    id: uuidv4(),
+    name: 'EOSTARTER – token sale platform',
+    url: 'https://eostarter.org/',
+    technology: 'HTML, CSS, JS, TS, React, Next.js',
+  },
+  {
+    id: uuidv4(),
+    name: 'ESTA - management of construction works and contracts',
+    url: '#',
+    technology: 'JS, TS, React, jQuery, AWS, Akita, MUI, MDB',
   },
 ];
 
 const myJobs = [
   {
     id: uuidv4(),
+    position: 'Frontend Developer',
+    company: 'Five Systems Development',
+    start: 'October 2021',
+    end: 'up to now',
+    country: 'Ukraine',
+    description: [
+      {
+        id: uuidv4(),
+        item: 'Development and support',
+      },
+      {
+        id: uuidv4(),
+        item: 'Code optimization',
+      },
+      {
+        id: uuidv4(),
+        item: 'Testing',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
     position: 'Content Manager',
     company: 'ItStart',
     start: 'September 2019',
-    end: 'up to now',
+    end: 'September 2021',
     country: 'Ukraine',
     description: [
       {

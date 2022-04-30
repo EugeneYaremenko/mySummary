@@ -9,7 +9,7 @@ const Projects = ({ projects }) => {
         <li key={project.id} className={styles.projectsItem}>
           <div className={styles.projectLink}>
             <a target="_blanc" href={project.url} rel="noreferrer">
-              {project.url}
+              {project.name}
             </a>
           </div>
           <div className={styles.dots}></div>
