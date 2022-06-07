@@ -108,9 +108,39 @@ const myJobs = [
   {
     id: uuidv4(),
     position: 'Frontend Developer',
+    company: 'Memcrab',
+    start: 'June 2022',
+    end: 'up to now',
+    country: 'Ukraine',
+    description: [
+      {
+        id: uuidv4(),
+        item: 'Development of applications and ensure the quality of the product',
+      },
+      {
+        id: uuidv4(),
+        item: 'Use the approaches for further use automated testing',
+      },
+      {
+        id: uuidv4(),
+        item: 'Work on improving the software architecture ensuring',
+      },
+      {
+        id: uuidv4(),
+        item: 'Commit to high security and data protection standards',
+      },
+      {
+        id: uuidv4(),
+        item: 'Continuous development and training in the team',
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    position: 'Frontend Developer',
     company: 'Five Systems Development',
     start: 'October 2021',
-    end: 'up to now',
+    end: 'June 2022',
     country: 'Ukraine',
     description: [
       {
